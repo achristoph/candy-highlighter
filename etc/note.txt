@@ -1,0 +1,4 @@
+TODO:
+- exclude hole/brick cell when matching
+- highlight fruit if there's matched
+

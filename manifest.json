@@ -1,0 +1,34 @@
+{
+  "name":"Candy Crush Saga Highlighter",
+  "version":"1.0.13",
+  "description": "Highlight candies for Candy Crush Saga on Facebook",
+  "permissions":[
+    "activeTab"
+  ],
+  "background":{
+    "page":"background.html",
+    "persistent":false
+  },
+  "browser_action":{
+    "default_icon":"icons/icon_16.png",
+    "default_title":"Candy Crush Saga Helper"
+  },
+  "icons":{
+    "16":"icons/icon_16.png",
+    "48":"icons/icon_48.png",
+    "128":"icons/icon_128.png"
+  },
+  "commands":{
+    "_execute_browser_action":{
+      "suggested_key":{
+        "default": "Alt+X",
+        "windows":"Alt+X",
+        "mac":"Alt+X",
+        "chromeos":"Alt+X",
+        "linux":"Alt+X"
+      }
+    }
+  },
+  "content_security_policy":"script-src 'self' https://stats.g.doubleclick.net; object-src 'self'",
+  "manifest_version":2
+}
